@@ -1,0 +1,116 @@
+/* Main Registration Page */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Registration Box */
+.register-box {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Heading */
+.register-box h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 28px;
+}
+
+/* Subtitle */
+.register-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Success Message */
+.success-message {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label */
+.form-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Input */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Input Focus */
+.form-group input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 4px rgba(13, 110, 253, 0.3);
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 12px;
+    margin: 4px 0 0;
+}
+
+/* Register Button */
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.register-btn:hover {
+    background-color: #0b5ed7;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .register-box {
+        padding: 20px;
+    }
+
+    .register-box h2 {
+        font-size: 24px;
+    }
+}
